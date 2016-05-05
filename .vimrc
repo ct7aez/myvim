@@ -25,3 +25,7 @@ set showmatch
 set mat=2
 "enable use of the mouse for all modes
 set mouse=a
+"tabs and spaces for < & >
+set shiftwidth=4
+set softtabstop=4
+set expandtab
