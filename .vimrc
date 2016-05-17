@@ -1,3 +1,4 @@
+set history=200
 set nocompatible
 filetype plugin on
 "set number
