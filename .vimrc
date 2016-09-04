@@ -1,7 +1,8 @@
 set history=200
 set nocompatible
 filetype plugin on
-"set number
+set number
+set relativenumber
 set ruler
 syntax on
 filetype on
