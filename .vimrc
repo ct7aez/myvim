@@ -1,6 +1,6 @@
 "fugitive plugin from https://github.com/tpope/vim-fugitive
 source ~/.vim/vim-fugitive/plugin/fugitive.vim
-set history=200
+set history=400
 set nocompatible
 filetype plugin on
 set number
