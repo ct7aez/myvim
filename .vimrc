@@ -5,6 +5,8 @@ set nocompatible
 filetype plugin on
 set number
 set relativenumber
+set laststatus=2
+set statusline=%<%f\ %h%m%r%{fugitive#head()}%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 set ruler
 syntax on
 filetype on
