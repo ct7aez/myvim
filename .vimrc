@@ -5,7 +5,9 @@ set nocompatible
 filetype plugin on
 set number
 set relativenumber
+"mostra sempre a barra de status
 set laststatus=2
+"linha de status
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 set ruler
 syntax on
