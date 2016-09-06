@@ -1,5 +1,6 @@
 "fugitive plugin from https://github.com/tpope/vim-fugitive
 source ~/.vim/vim-fugitive/plugin/fugitive.vim
+source ~/.vim/nerdtree/plugin/NERD_tree.vim
 set history=400
 set nocompatible
 filetype plugin on
