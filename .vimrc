@@ -1,3 +1,5 @@
+"fugitive plugin from https://github.com/tpope/vim-fugitive
+source ~/.vim/vim-fugitive/plugin/fugitive.vim
 set history=200
 set nocompatible
 filetype plugin on
