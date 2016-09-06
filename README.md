@@ -1,3 +1,3 @@
 # myvim
 My vimrc configs
-http://github.com/tpope/vim-fugitive
+Fonte do plugin http://github.com/tpope/vim-fugitive
