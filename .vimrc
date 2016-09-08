@@ -1,9 +1,19 @@
 "config para usar o pathogen
 execute pathogen#infect()
+"mostra sempre a barra de status
+set laststatus=2
+"linha de status orig
+"set statusline=[%n]\ %<%F\ Type:%y%{&ff}\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ [%B]\ %P
+set statusline+=[%n]
+set statusline+=\ %<%F 
+set statusline+=\ Tipo:%y%{&ff}
+set statusline+=\ %h%m%r%{fugitive#statusline()}
+"set statusline+=%*
 "config para o syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+"right side with char value indicator
+set statusline+=%=%-14.(%l,%c%V%)\ 0x%B\ %P
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
@@ -17,10 +27,6 @@ set scrolloff=1
 set nocompatible
 set number
 set relativenumber
-"mostra sempre a barra de status
-set laststatus=2
-"linha de status
-set statusline=[%n]\ %<%F\ Type:%y%{&ff}\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 set ruler
 syntax on
 filetype on
