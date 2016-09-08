@@ -7,10 +7,10 @@ filetype plugin indent on
 "procura file nas directorias abaixo para usar gf
 set path=/home/pedro/**,/media/**,/home/.vim/**,/etc/**
 "more soft stutusline
-hi StatusLine ctermbg=Green ctermfg=Black
+hi StatusLine ctermbg=2 ctermfg=0
 "change the status line based on mode
 if version >= 700
-    au InsertEnter * hi StatusLine term=reverse ctermbg=5 gui=undercurl guisp=Magenta
+    au InsertEnter * hi StatusLine term=reverse ctermbg=3 gui=undercurl guisp=Magenta
     au InsertLeave * hi StatusLine term=reverse ctermfg=0 ctermbg=2 gui=bold,reverse
     endif
 "config para usar o pathogen
