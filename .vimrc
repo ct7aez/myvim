@@ -32,7 +32,7 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 "right side with char value indicator
-set statusline+=%=%-14.(%l,%c%V%)\ 0x%B\ %P
+set statusline+=%=%-14.(%l,%c%V%)\ [char:0x%B]\ %P
 "mostra espaços como chars
 set listchars=tab:>-,trail:-,extends:>,precedes:<,nbsp:+
 "tabs maximas permitidas
