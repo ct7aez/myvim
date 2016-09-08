@@ -12,9 +12,13 @@ let g:syntastic_check_on_wq = 0
 "source ~/.vim/vim-fugitive/plugin/fugitive.vim
 "nerd tree plugin
 "source ~/.vim/nerdtree/plugin/NERD_tree.vim
-set history=400
+"mostra espaços como chars
+set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
+set tabpagemax=50
+set encoding=utf-8
+set history=1000
+set scrolloff=1
 set nocompatible
-filetype plugin on
 set number
 set relativenumber
 "mostra sempre a barra de status
@@ -25,6 +29,8 @@ set ruler
 syntax on
 filetype on
 filetype indent on
+filetype plugin on
+filetype plugin indent on
 "treat all decimal
 set nrformats=
 "be wild on hints
