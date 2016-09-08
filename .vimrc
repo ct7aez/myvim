@@ -1,3 +1,10 @@
+syntax on
+filetype on
+filetype indent on
+filetype plugin on
+filetype plugin indent on
+"procura file nas directorias abaixo para usar gf
+set path=/home/pedro/**,/media/**,/home/.vim/**
 "config para usar o pathogen
 execute pathogen#infect()
 "mostra sempre a barra de status
@@ -8,18 +15,18 @@ set statusline+=[%n]
 set statusline+=\ %<%F 
 set statusline+=\ Tipo:%y%{&ff}
 set statusline+=\ %h%m%r%{fugitive#statusline()}
-"set statusline+=%*
 "config para o syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-"right side with char value indicator
-set statusline+=%=%-14.(%l,%c%V%)\ 0x%B\ %P
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+"right side with char value indicator
+set statusline+=%=%-14.(%l,%c%V%)\ 0x%B\ %P
 "mostra espaços como chars
-set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
+set listchars=tab:>-,trail:-,extends:>,precedes:<,nbsp:+
 set tabpagemax=50
 set encoding=utf-8
 set history=1000
@@ -28,11 +35,6 @@ set nocompatible
 set number
 set relativenumber
 set ruler
-syntax on
-filetype on
-filetype indent on
-filetype plugin on
-filetype plugin indent on
 "treat all decimal
 set nrformats=
 "show results imid
