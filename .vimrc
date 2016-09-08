@@ -70,3 +70,10 @@ set mouse=a
 set shiftwidth=4
 set softtabstop=4
 set expandtab
+
+" Spell checking
+setglobal spell spelllang=PT_pt
+" By default spelling is off...
+set nospell
+"...but enable it for the English text files I use a lot.
+au BufRead,BufNewFile,BufWrite *.txt,*.tex,*.latex set spell
