@@ -33,6 +33,8 @@ filetype plugin on
 filetype plugin indent on
 "treat all decimal
 set nrformats=
+"show results imid
+set incsearch
 "be wild on hints
 set wildmenu
 "when searching try to be smart about case
