@@ -14,8 +14,10 @@ if version >= 700
     au InsertLeave * hi StatusLine term=reverse ctermfg=0 ctermbg=2 gui=bold,reverse
     endif
 "config para usar o pathogen
+"set  rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
 execute pathogen#infect()
 "mostra sempre a barra de status
+set t_Co=256
 set laststatus=2
 "linha de status orig
 "set statusline=[%n]\ %<%F\ Type:%y%{&ff}\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ [%B]\ %P
