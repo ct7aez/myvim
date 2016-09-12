@@ -5,7 +5,7 @@ filetype indent on
 filetype plugin on
 filetype plugin indent on
 "procura file nas directorias abaixo para usar gf
-set path=/home/pedro/**,/media/**,/home/.vim/**,/etc/**
+set path=/home/pedro/**,/media/**,/home/pedro/.vim/**,/etc/**
 "more soft stutusline
 hi StatusLine ctermbg=2 ctermfg=0
 "change the status line based on mode
@@ -72,9 +72,8 @@ set mouse=a
 set shiftwidth=4
 set softtabstop=4
 set expandtab
-
 " Spell checking
-setglobal spell spelllang=PT_pt
+set spelllang=pt
 " By default spelling is off...
 set nospell
 "...but enable it for the English text files I use a lot.
