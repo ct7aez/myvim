@@ -6,8 +6,12 @@ filetype plugin on
 filetype plugin indent on
 "procura file nas directorias abaixo para usar gf
 set path=/home/pedro/**,/media/**,/home/pedro/.vim/**,/etc/**
-"more soft stutusline
+"Melhore cores nihi
 hi StatusLine ctermbg=2 ctermfg=0
+hi Search cterm=NONE ctermfg=Black ctermbg=Blue
+"hi SpellBad cterm=NONE ctermfg=Black ctermbg=Grey
+hi clear SpellBad
+hi SpellBad cterm=undercurl ctermfg=8
 "change the status line based on mode
 if version >= 700
     au InsertEnter * hi StatusLine term=reverse ctermbg=3 gui=undercurl guisp=Magenta
@@ -78,3 +82,4 @@ set spelllang=pt
 set nospell
 "...but enable it for the English text files I use a lot.
 au BufRead,BufNewFile,BufWrite *.txt,*.tex,*.latex,*MSG set spell
+"set grepprg=ack-grep\ --nogroup\ $*
