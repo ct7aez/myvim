@@ -77,4 +77,4 @@ set spelllang=pt
 " By default spelling is off...
 set nospell
 "...but enable it for the English text files I use a lot.
-au BufRead,BufNewFile,BufWrite *.txt,*.tex,*.latex set spell
+au BufRead,BufNewFile,BufWrite *.txt,*.tex,*.latex,*MSG set spell
