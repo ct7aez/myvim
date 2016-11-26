@@ -6,6 +6,7 @@ vim-fugitive
 nerdtree
 syntastic
 vim-hardy
+vimwiki
 
 
 Criar as directorias ~/.vim/autoload e ~/.vim/bundle.
@@ -18,8 +19,11 @@ Fonte do plugin
 instalar o pathogen.vim na pasta ~/.vim/autoload
 git clone https://github.com/tpope/vim-pathogen.git
 cd ~/.vim/bundle
-git clone https://github.com/tpope/vim-fugitive.git
-git clone https://github.com/scrooloose/nerdtree.git
-git clone https://github.com/scrooloose/syntastic.git
-git clone git://github.com/4Evergreen4/vim-hardy.git
+
+* git clone https://github.com/tpope/vim-fugitive.git
+* git clone https://github.com/scrooloose/nerdtree.git
+* git clone https://github.com/scrooloose/syntastic.git
+* git clone git://github.com/4Evergreen4/vim-hardy.git
+* git clone https://github.com/vimwiki/vimwiki.git
+
 :helptags ~/.vim.............doc/
