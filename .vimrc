@@ -5,7 +5,7 @@ filetype indent on
 filetype plugin on
 filetype plugin indent on
 "procura file nas directorias abaixo para usar gf
-set path=/home/pedro/**,/media/**,/home/pedro/.vim/**,/etc/**
+set path=/home/pedro/**,/media/**,/home/pedro/.vim/**,/etc/**,/home/pedro/vimwiki
 "Melhore cores nihi
 hi StatusLine ctermbg=2 ctermfg=0
 hi Search cterm=NONE ctermfg=Black ctermbg=Blue
