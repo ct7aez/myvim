@@ -86,4 +86,5 @@ au BufRead,BufNewFile,BufWrite *.txt,*.tex,*.latex,*MSG set spell
 map <leader>ns :set nospell<CR>
 map <leader>ss :set spell<CR>
 map <leader>nt :NERDTree<CR>
+map <leader>wsu :w !sudo tee % > /dev/null<CR>
 let g:vimwiki_toc_header = 'Conteúdo'
