@@ -85,4 +85,5 @@ au BufRead,BufNewFile,BufWrite *.txt,*.tex,*.latex,*MSG set spell
 "set grepprg=ack-grep\ --nogroup\ $*
 map <leader>ns :set nospell<CR>
 map <leader>ss :set spell<CR>
+map <leader>nt :NERDTree<CR>
 let g:vimwiki_toc_header = 'Conteúdo'
