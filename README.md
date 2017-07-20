@@ -27,3 +27,8 @@ cd ~/.vim/bundle
 * git clone https://github.com/vimwiki/vimwiki.git
 
 :helptags ~/.vim.............doc/
+
+nova forma de instalação de plugins ver:
+
+https://github.com/vimwiki/vimwiki
+
