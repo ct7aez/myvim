@@ -20,6 +20,7 @@ if version >= 700
 "config para usar o pathogen
 "set  rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
 execute pathogen#infect()
+execute pathogen#helptags()
 "mostra sempre a barra de status
 set t_Co=256
 set laststatus=2
