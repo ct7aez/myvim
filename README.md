@@ -7,6 +7,7 @@ nerdtree
 syntastic
 vim-hardy
 vimwiki
+pythom-mode
 
 
 Criar as directorias ~/.vim/autoload e ~/.vim/bundle.
@@ -25,6 +26,7 @@ cd ~/.vim/bundle
 * git clone https://github.com/scrooloose/syntastic.git
 * git clone git://github.com/4Evergreen4/vim-hardy.git
 * git clone https://github.com/vimwiki/vimwiki.git
+* git clone --recursive https://github.com/python-mode/python-mode
 
 :helptags ~/.vim.............doc/
 
