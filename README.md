@@ -9,12 +9,16 @@ vim-hardy
 vimwiki
 pythom-mode
 
+Instalar o vim-nox
 
+Para ver. >= 8 colocar as plugins em /home/foo/.vim/pack/foo/start
+
+Usando o phatogen
+ 
 Criar as directorias ~/.vim/autoload e ~/.vim/bundle.
 Adicionar execute pathogen#infect() ao ficheiro ~/.vimrc
 Fazer o git clone da "aplicação" dentro de ~/.vim/bundle
 Verificar permissões.
-
 
 Fonte do plugin
 instalar o pathogen.vim na pasta ~/.vim/autoload

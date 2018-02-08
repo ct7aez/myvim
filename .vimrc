@@ -77,6 +77,7 @@ set mouse=a
 set shiftwidth=4
 set softtabstop=4
 set expandtab
+set tabstop=8
 " Spell checking
 set spelllang=pt
 " By default spelling is off...
