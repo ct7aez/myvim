@@ -88,3 +88,5 @@ map <leader>ss :set spell<CR>
 map <leader>nt :NERDTree<CR>
 map <leader>wsu :w !sudo tee % > /dev/null<CR>
 let g:vimwiki_toc_header = 'Conteúdo'
+let g:pymode_python = 'python3'
+let g:pymode_lint_on_write = 0
